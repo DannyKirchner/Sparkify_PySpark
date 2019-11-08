@@ -2,10 +2,13 @@
 Predict user churn
 
 
-### Project Motivation:
+### Project motivation:
 
 
 ### Installation:
+
+
+### File description:
 
 
 ### Conclusion:
