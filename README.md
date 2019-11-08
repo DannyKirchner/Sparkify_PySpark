@@ -10,10 +10,15 @@ Predict user churn
 If following libraries aren't installed already, run "pip install <package_name>" in your command line.
 
 -pyspark
+
 -pandas
+
 -matplotlib
--seaborn  <br> Due probably updating issues it is possible that seaborn doesn't work completely. Therefore, I included an install command to ensure it executes all neccesary functions, objects, etc...<br>
+
+-seaborn  <strong> Due probably updating issues it is possible that seaborn doesn't work completely. Therefore, I included an install command to ensure it executes all neccesary functions, objects, etc...</strong>
+
 -time
+
 -datetime
 
 
