@@ -1,9 +1,10 @@
 # Sparkify_PySpark
-Predict user churn
+Predict user churn with Spark.
 
 
 ### Project motivation:
 
+The project is about predicting customer churn. It is a fictional app similar to spotify. It predicts the churn rate of customers based on different features.
 
 ### Installation:
 
@@ -31,5 +32,20 @@ Because of github's upload size constraint, I have splitted the json data into 6
 #### Code
 "Sparkify.ipynb" contains all the necessary code to run the app.
 
+### Results:
 
-### Conclusion:
+I transformed features to numerical values and standardized it. Following 3 algorithms has been used:
+
+1. Gradient Boosted Tree:   Accuracy: 0.9884  Training time: 574.6336376667023 seconds
+2. Logistic Regression:     Accuracy: 0.8368  Training time: 191.6119527816772 seconds
+3. Random Forest Clasifier: Accuracy: 0.8859  Training time: 262.8532431125641 seconds
+
+It's obvious that Gradient Boosted Tree overfitted, due the highly imbalanced(much more non_churned user than churned user in dataset)dataset. With respect to training time, I would choose Random Forest Clasifier.
+
+### Future Improvements:
+
+Training the model on the big dataset would help a lot. Extract and use more features, that would lead to a more robust model. Random over- or down-sampling could be applied in order to get a more balanced dataset. 
+
+### Blog Post:
+
+The Blog Post can be found on 
