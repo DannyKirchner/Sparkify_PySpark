@@ -36,7 +36,8 @@ Because of github's upload size constraint, I have splitted the json data into 6
 
 I transformed features to numerical values and standardized it. Following 3 algorithms has been used:
 
-1. Gradient Boosted Tree:   Accuracy: 0.9884    F1 Score: 0.9883    Training time: 574.63 seconds
+1. Gradient Boosted Tree:   
+Accuracy: 0.9884               F1 Score: 0.9883              Training time: 574.63 seconds
 2. Logistic Regression:     Accuracy: 0.8368    F1 Score: 0.7625    Training time: 191.61 seconds
 3. Random Forest Clasifier: Accuracy: 0.8859    F1 Score: 0.8588    Training time: 262.85 seconds
 
