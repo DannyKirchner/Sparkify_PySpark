@@ -10,7 +10,7 @@ The project is about predicting customer churn. It is a fictional app similar to
 
 Jupyter Notebook runs with Python 3.
 
-If following libraries aren't installed already, run <strong>"pip install <package_name>"</strong> in your command line.
+If following libraries aren't installed already, run <strong>"pip install <package_name>"</strong> or <strong>"conda install <package_name>"</strong> in your command line.
 
 -pyspark
 
@@ -59,4 +59,4 @@ Training the model on the big dataset would help a lot. Extract and use more fea
 
 ### Blog Post:
 
-The Blog Post can be found on 
+The Blog Post can be found on https://medium.com/@danny.kirchner/predicting-customer-churn-rates-b3fa0e9621ed
