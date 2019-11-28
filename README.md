@@ -51,7 +51,9 @@ Accuracy: 0.8859
 F1 Score: 0.8588    
 Training time: 262.85 seconds
 
-It's obvious that Gradient Boosted Tree overfitted, due the highly imbalanced(much more non_churned user than churned user in dataset)dataset. With respect to training time, I would choose Random Forest Clasifier.
+#### Hypertuned gradient boosted tree:
+F-1 score:
+0.9952
 
 ### Future Improvements:
 
