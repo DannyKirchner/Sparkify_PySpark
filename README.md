@@ -57,7 +57,7 @@ F-1 score:
 
 ### Future Improvements:
 
-Training the model on the big dataset would help a lot. Extract and use more features, that would lead to a more robust model. Random over- or down-sampling could be applied in order to get a more balanced dataset. 
+Training the model on the large dataset would help a lot. Extract and use more features, that would lead to a more robust model. Random over- or down-sampling could be applied in order to get a more balanced dataset. 
 
 ### Blog Post:
 
