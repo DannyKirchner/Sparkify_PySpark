@@ -18,7 +18,7 @@ If following libraries aren't installed already, run <strong>"pip install <packa
 
 -matplotlib
 
--seaborn  <strong> Due probably updating issues it is possible that seaborn doesn't work completely. Therefore, I included an install command to ensure it executes all neccesary functions, objects, etc...</strong>
+-seaborn  <strong> Due probably updating issues it is possible that seaborn doesn't work as intended. Therefore, I included an install command to ensure it executes all neccesary functions, objects, etc...</strong>
 
 
 ### File description:
@@ -34,7 +34,7 @@ Because of github's upload size constraint, I have splitted the json data into 6
 
 ### Results:
 
-I transformed features to numerical values and standardized it. Following 3 algorithms has been used:
+I transformed features to numerical values and standardized it. Following 3 algorithms were used:
 
 #### 1. Gradient Boosted Tree:   
 Accuracy: 0.9884               
@@ -58,7 +58,3 @@ F-1 score:
 ### Future Improvements:
 
 Training the model on the large dataset would help a lot. Extract and use more features, that would lead to a more robust model. Random over- or down-sampling could be applied in order to get a more balanced dataset. 
-
-### Blog Post:
-
-The Blog Post can be found on https://medium.com/@danny.kirchner/predicting-customer-churn-rates-b3fa0e9621ed
